@@ -17,4 +17,4 @@ Video contents:
 
 ![img](Clothing%20Website.png)
 
-Hey bro please don't forget to subscribe to [my channel](https://www.youtube.com/@CodingWeb3 "CodingWeb") and like the [video](https://youtu.be/l_pICfsY3KM "Responsive Clothing Website") 😊😊
+Hey bro please don't forget to subscribe to [my channel](https://www.youtube.com/@CodingWeb3 "CodingWeb") and like the [video](https://youtu.be/l_pICfsY3KM "Responsive Clothing Website") 😊😊.
