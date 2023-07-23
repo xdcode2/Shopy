@@ -11,7 +11,7 @@ const navBar = document.querySelector(".header"),
     circleBtn = document.querySelector(".go-down-btn"),
     scrollUpBtn = document.querySelector(".scroll-up");
 
-const API_URL = "../../assets/apis/products.json";
+const API_URL = "../assets/apis/products.json";
 
 // initialize Scroll Reveal
 const sr = ScrollReveal({ origin: "top", distance: "100px", duration: 2000, delay: 300 });
