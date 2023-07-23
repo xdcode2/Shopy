@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+:root {
+    /* ============= COLORS ============= */
+    --white-100: #ffffff;
+    --white-95: #f5f5f5;
+    --white-85: #e5e5e5;
+    --white-100-opcty-212: #ffffffd4;
+    --white-100-opcty-163: #ffffffa3;
+    --black-100: #000000;
+    --black-75: #353535;
+    --black-5\11: #5b5b5b;
+    --black-4\13: #6d6d6d;
+    --black-100-opcty-71: #00000047;
+    --dark-lead: #98a390;
+    --dark-lead-hover: #a1ac99;
+    --red-62: #ff173e;
+
+    /* ============= PADDING ============= */
+    --padding-1: 1rem;
+    --padding-2: 2rem;
+    --padding-3: 3rem;
+
+    /* ============= MARGIN ============= */
+    --margin-1: var(--padding-1);
+    --margin-2: var(--padding-2);
+    --margin-3: var(--padding-3);
+
+    /* ============= BORDER RADIUS ============= */
+    --border-5: 5px;
+    --border-10: 10px;
+    --border-rounded: 100vmax;
+    --border-circle: 50%;
+
+    /* ============= DURATIONS ============= */
+    --default-duration: 300ms;
+    --fast-duration: 1500ms;
+    --slowest-duration: 8000ms;
+
+    /* ============= FONT FAMILY ============= */
+    --font-family-lora: "lora", sans-serif;
+
+    /* ============= FONT SIZE ============= */
+    --font-size-1: 1rem;
+    --font-size-1-5: 1.5rem;
+    --font-size-2: 2rem;
+    --font-size-2-5: 2.5rem;
+    --font-size-3: 3rem;
+
+    /* ============= FONT WEIGHT ============= */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-sime-bold: 600;
+    --font-bold: 700;
+
+    /* =============  HEIGHTS & WIDTHS =============*/
+    --full-view-height: 100vh;
+    --full-view-width: 100%;
+    --header-height: 70px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--white-85);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+}
+
+header,
+section,
+footer {
+    width: var(--full-view-width);
+}
+
+.material-symbols-rounded {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+    user-select: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--padding-1);
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.btn {
+    outline: none;
+    border: none;
+    font-size: var(--font-size-1);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn-border {
+    border: 2px solid transparent;
+    background-color: transparent;
+    transition: background var(--default-duration) ease, color var(--default-duration) ease;
+}
+
+.btn-border-white {
+    border-color: var(--white-100);
+    color: var(--white-100) !important;
+}
+
+.btn-border-white:hover {
+    background-color: var(--white-100);
+    color: var(--black-75) !important;
+}
+
+.btn-border-black {
+    border-color: var(--black-100);
+    color: var(--black-75) !important;
+}
+
+.btn-border-black:hover {
+    background-color: var(--black-100);
+    color: var(--white-100) !important;
+}

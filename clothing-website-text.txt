@@ -1,0 +1,100 @@
+<-- ============= Home Section ============= -->
+
+.home__slide
+    .home__sub-heading 
+	"new brand collection"
+    .home__heading
+	"awesome designs"
+
+.home__slide
+    .home__sub-heading 
+	"get 50% off"
+    .home__heading
+	"modern designs"
+
+.home__slide
+    .home__sub-heading 
+	"new women collection"
+    .home__heading
+	"unique designs"
+
+
+<-- ============= New Section ============= -->
+
+.section__title
+    "new arrivals"
+
+
+<-- ============= Shop Section ============= -->
+
+.section__title
+    "shop"
+
+
+<-- ============= Brands Section ============= -->
+
+.section__title
+    "brands"
+
+img {src: brand1.png, alt: "Adidas"}
+
+img {src: brand2.png, alt: "Louis Vuitton"}
+
+img {src: brand3.png, alt: "The North Face"}
+
+img {src: brand4.png, alt: "Nike"}
+
+img {src: brand5.png, alt: "Reebok"}
+
+
+<-- ============= Trending Section ============= -->
+
+.section__title
+    "what's trending"
+
+<-- ============= Subscribe Section ============= -->
+
+.section__title
+    "newsletter"
+
+.subscribe__text 
+    "subscribe to our newsletter to get what's new in products"
+
+
+<-- ============= Footer ============= -->
+
+.footer__col
+    .footer__logo
+	"shopy."
+    .footer__description
+	"It was found to sell the best products from the most popular brands in the world."
+
+.footer__col
+    .footer__title
+	"company"
+    .footer__links
+	"Home"
+	"New"
+	"Shop"
+	"Trending"
+
+.footer__col
+    .footer__title
+	"information"
+    .footer__links
+	"📌 Jordan, Amman, Mecca St."
+	"🕐 Saturday - Thursday <br /> 9AM - 12PM"
+	"📞 +962 123 456 789"
+	"✉️ shopy@gmail.com"
+
+.footer__col
+    .footer__title
+	"social media"
+    .footer__links
+	"Inestagram"
+	"Facebook"
+	"Whatsapp"
+	"Twitter"
+
+.footer__copyRight
+    "&copy; 2023 <span>CodingWeb</span> All Rights Reserved"
